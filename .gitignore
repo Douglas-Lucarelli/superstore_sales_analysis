@@ -1,0 +1,37 @@
+# Arquivos compilados e cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Checkpoints de notebooks Jupyter
+.ipynb_checkpoints/
+
+# Ambientes virtuais
+env/
+venv/
+ENV/
+.env/
+
+# Dados e datasets (incluindo o dataset do Kaggle)
+data/
+datasets/
+*.csv
+*.json
+*.xlsx
+*.xls
+
+# Pasta para resultados e análises intermediárias
+results/
+
+# Empacotamento e distribuição
+build/
+dist/
+*.egg-info/
+
+# Arquivos de configuração de IDEs e editores
+.vscode/
+.idea/
+
+# Outros arquivos desnecessários
+.DS_Store
+Thumbs.db
